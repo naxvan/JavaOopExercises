@@ -101,3 +101,47 @@ También quieren ver si usted puede crear una clase que puedan usar antes de cua
 Crear la clase `HumanTest` para probar estos métodos.
 
 
+
+# Maestro de Objetos: Parte 2
+
+Al club le gustó mucho su trabajo y le han pedido desarrollar un poco más las opciones del personaje. Quieren agregar las clases de Ninja, Wizard y Samurai pero también quieren que cualquier modificación hecha en la clase Human se extienda a estas.
+
+Adicional a esto, cada clase tendrá algunas características únicas:
+
+## Clase Wizard
+- Valor predeterminado de salud: 50.
+- Valor predeterminado de inteligencia: 8.
+- Método `heal(Human)`: Permite curar al otro Human en una cantidad igual a la inteligencia del Wizard.
+- Método `fireBall(Human)`: Disminuye la salud del otro Human en 3 veces la inteligencia del Wizard.
+
+## Clase Ninja
+- Valor predeterminado de sigilo: 10.
+- Método `steal(Human)`: Roba la salud del otro Human igual al nivel de sigilo del Ninja.
+- Método `runAway()`: Reduce la salud del Ninja en 10.
+
+## Clase Samurai
+- Valor predeterminado de salud: 200.
+- Método `deathBlow(Human)`: Ataca al otro Human y reduce su salud a 0, también reduce la salud del Samurai a la mitad.
+- Método `meditate()`: Cura al Samurai en la mitad de su salud actual.
+- Método `howMany()`: Devuelve el número actual de Samurais.
+
+## Objetivos
+- Implementar paquetes para el espacio de trabajo de su proyecto.
+- Implementar herencia.
+
+## Actividades
+- Crear las clases `Wizard`, `Ninja` y `Samurai`, todas extendiendo de la clase `Human`.
+- Wizard: Establecer un valor predeterminado de health en 50.
+- Wizard: Establecer un valor predeterminado de intelligence en 8.
+- Wizard: Agregar un método heal(Human) que aumentará la salud del otro Human en los puntos de intelligence que tenga el Wizard.
+- Wizard: Agregar un método fireBall(Human) que disminuye la salud del otro Human en los puntos de intelligence * 3 que tenga el Wizard.
+- Ninja: Establecer un valor predeterminado de stealth en 10.
+- Ninja: Agregar un método steal(Human) que roba la cantidad de puntos que tenga el Ninja en stealth de la salud del otro Human y los agrega a la health del Ninja.
+- Ninja: Agregar un método runAway() que reduce su salud en 10.
+- Samurai: Establecer un valor predeterminado de health en 200.
+- Samurai: Agregar un método deathBlow(Human) que asesina al otro Human y reduce la health del Samurai a la mitad.
+- Samurai: Agregar un método meditate() que curará al Samurai en la mitad de puntos que tenga de health.
+- Samurai: Agregar un método howMany() que devuelve el número actual del Samurai.
+
+
+
