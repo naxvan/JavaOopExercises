@@ -143,5 +143,32 @@ Adicional a esto, cada clase tendrá algunas características únicas:
 - Samurai: Agregar un método meditate() que curará al Samurai en la mitad de puntos que tenga de health.
 - Samurai: Agregar un método howMany() que devuelve el número actual del Samurai.
 
+# Cuenta de Banco
+
+Vamos a crear la clase `BankAccount`. Esta clase recreará algunas de las transacciones más comunes que normalmente ocurren en una cuenta de banco como mostrar su número de cuenta, monto en cuenta corriente y de ahorros, monto total. Por supuesto, hay métodos que invocar, tanto como depositar un cheque, verificar saldo, retirar dinero.
+
+## Objetivos
+
+- Practicar variables principales.
+- Practicar métodos de instancia, getters y setters.
+- Implementar variables y métodos estáticos.
+
+## Actividades
+
+1. Crear una clase `BankAccount`.
+2. La clase debe tener los siguientes atributos: `(string) número de cuenta`, `(double) saldo cuenta corriente`, `(double) saldo cuenta de ahorros`.
+3. Crear una variable `(static)` que contenga el número de cuentas creadas hasta el momento.
+4. Crear una variable `(static)` que rastree la cantidad de dinero almacenado en cada cuenta creada.
+5. Crear un método privado que retorne un número de 10 dígitos aleatorios para el número de cuenta.
+6. En el constructor, llamar al método privado anterior, así cada usuario tendrá un número de cuenta de 10 dígitos aleatorios.
+7. En el constructor, asegurarse de incrementar el contador de cuentas creadas.
+8. Crear un método getter para el saldo de la cuenta corriente del usuario.
+9. Crear un método getter para el saldo de la cuenta de ahorros del usuario.
+10. Crear un método que permita al usuario depositar dinero en su cuenta corriente o cuenta de ahorros, asegúrese de aumentar el total de dinero almacenado.
+11. Crear un método para retirar dinero de una cuenta. No permita que retire dinero si tiene fondos insuficientes.
+12. Crear un método para ver el total de dinero en la cuenta corriente y en la cuenta de ahorros.
+13. Los usuarios no deberían poder configurar ningún atributo de la clase.
+
+
 
 
