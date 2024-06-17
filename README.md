@@ -186,8 +186,43 @@ Vamos a crear la clase `BankAccount`. Esta clase recreará algunas de las transa
   - Una variable estática `count` para mantener el número de Pokemones creados en el programa.
   - Getter y Setter para cada variable principal.
   - Un constructor para establecer `name`, `health` y `type` en la creación de la instancia.
+ 
 
 
+
+# Teléfonos
+
+En esta actividad vamos a utilizar clases `Abstract` e `Interface` para crear 2 tipos de teléfonos: iPhone y Galaxy.
+
+## Objetivos
+
+- Definir clases.
+- Definir Interfaces.
+- Implementar clases que utilicen clases abstractas e interfaces.
+
+## Actividades
+
+- Crear una clase abstracta `Phone`.
+
+- Crear una interfaz `Ringable` que contenga los siguientes métodos:
+  - `ring()`: Este método retorna un String.
+  - `unlock()`: Este método retorna un String.
+
+- Crear las clases `IPhone` y `Galaxy`.
+  - Ambas clases deben extender/heredar de la clase abstracta `Phone` e implementar de la interfaz `Ringable`.
+
+- Implementar los métodos (`ring`, `unlock`, `displayInfo`) de las clases `IPhone` y `Galaxy`.
+
+### Ejemplo de Implementación Esperada:
+## Consola:
+
+Galaxy S9 From Verizon
+Galaxy Says: Ring ring ring
+Unlocking via finger print
+-----------------------------------------------------------
+Iphone: x From AT&T
+Iphone says: Zing
+Unloking via facial recognition
 
 
 
