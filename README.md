@@ -169,6 +169,25 @@ Vamos a crear la clase `BankAccount`. Esta clase recreará algunas de las transa
 12. Crear un método para ver el total de dinero en la cuenta corriente y en la cuenta de ahorros.
 13. Los usuarios no deberían poder configurar ningún atributo de la clase.
 
+# En esta actividad, crearemos una Pokedex que nos dé información acerca de los Pokemon.
+
+## Objetivos
+
+- Practicar con variables y métodos estáticos.
+- Definir clases abstractas.
+- Definir interfaces.
+- Implementar clases que utilicen clases abstractas e interfaces.
+
+## Actividades
+
+- Crear una clase `Pokemon` con:
+  - `name`, `health` y `type` como variables principales.
+  - `void attackPokemon(Pokemon pokemon)` Este método reduce la salud del Pokemon atacado en 10 puntos.
+  - Una variable estática `count` para mantener el número de Pokemones creados en el programa.
+  - Getter y Setter para cada variable principal.
+  - Un constructor para establecer `name`, `health` y `type` en la creación de la instancia.
+
+
 
 
 
